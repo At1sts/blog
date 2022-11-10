@@ -9,7 +9,7 @@ layout: default
 
 <p>
   {{ page.date | date_to_string }}
-  {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
+  {% assign category = site.categories | where: 'category', page.short_name %}
   {% if category %}
     - <a href="{{site.url}}/testjk{{ post.url }}">{{ post.title }}</a>
   {% endif %}
