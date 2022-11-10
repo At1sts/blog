@@ -7,6 +7,7 @@ title: Category
 <ul>
   {% for category in site.categories %}
     <li>
+      <h2><a href="{{site.url}}/testjk{{ category.url }}">{{ category.name }}</a></h2>
       <h2>{{ category.name }}</h2>
       <p>{{ category.content | markdownify }}</p>
     </li>
