@@ -1,5 +1,6 @@
 ---
-name: cat3
+short_name: cat3
+name: 카테고리3
 ---
 
 
