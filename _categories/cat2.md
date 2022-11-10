@@ -1,5 +1,5 @@
 ---
-layout: category
+layout: default
 short_name: cat2
 name: 카테고리2
 ---
