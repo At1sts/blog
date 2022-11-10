@@ -1,14 +1,14 @@
 ---
 layout: default
 ---
-<h1>{{ page.name }}</h1>
+<h1>{{ page.title }}</h1>
+
+<p>
+  {{ page.date | date_to_string }}
+  {% assign category = site.category | where: 'name', page.category | first %}
+  {% if category %}
+    - <a href="{{site.url}}/testjk{{ category.url }}">{{ category.name }}</a>
+  {% endif %}
+</p>
 
 {{ content }}
-
-<h2>Posts</h2>
-<ul>
-  {% assign filtered_posts = site.posts | where: 'category', page.name %}
-  {% for post in filtered_posts %}
-    <li><a href="{{ site.url }}/testjk{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
