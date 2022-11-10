@@ -1,4 +1,5 @@
 ---
+layout: category
 short_name: cat1
 name: 카테고리1
 ---
