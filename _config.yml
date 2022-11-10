@@ -1,5 +1,9 @@
 collections:
+  authors:
+    output: true
+    
+collections:
   category:
     output: true
 
-authors:
+
