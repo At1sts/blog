@@ -2,5 +2,7 @@
   link: /
 - name: Home
   link: /testjk/
+- name: Post
+  link: /_layouts/post.html
 - name: About
   link: /testjk/about.html
