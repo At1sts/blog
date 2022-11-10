@@ -8,7 +8,7 @@ title: Category
   {% for category in site.categories %}
     <li>
       <h2><a href="{{site.url}}/blog{{ category.url }}">{{ category.name }}</a></h2>
-      <p>{{ category.content | markdownify }}</p>
+      <p>{{ posts.content | markdownify }}</p>
     </li>
   {% endfor %}
 </ul>
