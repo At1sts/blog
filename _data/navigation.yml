@@ -4,5 +4,7 @@
   link: /testjk/
 - name: Post
   link: /testjk/posting.html
+- name: Category
+  link: /testjk/category.html
 - name: About
   link: /testjk/about.html
