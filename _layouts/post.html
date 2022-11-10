@@ -8,8 +8,10 @@ layout: default
 <p>
   {{ page.date | date_to_string }}
   {% assign category = site.categories | where: 'short_name', page.category | first %}
-  {% if short_name %}
-    - <a href="{{site.url}}/blog{{ post.url }}">{{ post.name }}</a>
+  {% if category %}
+    - <a href="{{site.url}}/blog{{ category.url }}">{{ post.name }}</a>
   {% endif %}
 </p>
 
+
+{{ content }}
