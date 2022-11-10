@@ -1,10 +1,10 @@
 - name: AT1ST
   link: /
 - name: Home
-  link: /testjk/
+  link: /blog/
 - name: Post
-  link: /testjk/posting.html
+  link: /blog/posting.html
 - name: Category
-  link: /testjk/category.html
+  link: /blog/category.html
 - name: About
-  link: /testjk/about.html
+  link: /blog/about.html
