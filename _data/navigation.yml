@@ -1,4 +1,6 @@
-- name: Home
+- name: AT1ST
   link: /
+- name: Home
+  link: /testjk/
 - name: About
-  link: /about.html
+  link: /testjk/about.html
