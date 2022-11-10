@@ -12,6 +12,6 @@ layout: default
   {% assign filtered_posts = site.posts | where: 'category', page.short_name %}
   {% if category %}
     - <a href="{{site.url}}/testjk{{ post.url }}">{{ post.title }}</a>
-  {% endfor %}
+  {% endif %}
 </p>
 
