@@ -10,19 +10,22 @@ li {
     list-style: none;
 }
 
-a:link,
-a:visited,
-a:active {
-    text-decoration:none; color:#000000; 
+a{
+    text-decoration:none;
+    color:#000000; 
+
+    &:visited{
+        text-decoration:none;
+        color:#000000; 
+    }
+    &:active{
+        text-decoration:none;
+        color:#000000; 
+
+    }
 }
-
-
-
 
 
 .current {
     color: green;
 }
-
-
-  
